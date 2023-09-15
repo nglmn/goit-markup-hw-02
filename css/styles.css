@@ -41,6 +41,9 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.header-address-link address{
+    font-style: normal;
+}
 .header-address-link:hover, .header-address-link:focus{
     color: #404bbf;
 }
@@ -59,7 +62,6 @@ ul{
 }
 .solutions-btn{
     font-family: inherit;
-    border-radius: 4px;
     background: #4D5AE5;
     color: white;
     font-size: 16px;
@@ -124,6 +126,9 @@ ul{
 
 
 .portfolio{
+    background-color: #F4F4FD;
+}
+.portfolio-list-item{
     background-color: #FFFFFF;
 }
 .portfolio-title{
@@ -136,6 +141,7 @@ ul{
     text-transform: capitalize;
 }
 .portfolio-subtitle{
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
